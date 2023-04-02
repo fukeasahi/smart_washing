@@ -2,7 +2,7 @@
 
 <% @washing_machines.each_with_index do |washing_machines_per_floor, index| %>
     <div class="floor_boxes">
-        <%= "#{3 - index}F" %>
+        <%= "#{WashingMachine.maximum(:floor) - index}F" %>
         <% washing_machines_per_floor.each do |washing_machine| %>
             <div>
                 <div>
