@@ -1,17 +1,15 @@
-<% washing_machines = ['Disable', 'Disable'] %>
+<h1 class="washing_machines_index_title">Washing Machine Status</h1>
 
-<h1 style="display: flex; justify-content: center;">Washing Machine Status</h1>
-
-<% [1,2,3].each do |a| %>
-    <div style="display: flex; justify-content: center; margin: 0 0 30px;">
-        <%= image_tag 'washing_machine.png', style: 'height: 150px;'%>
-        <% washing_machines.each do |washing_machine| %>
+<% @washing_machines.each_with_index do |washing_machines_per_floor, index| %>
+    <div class="floor_boxes">
+        <%= "#{3 - index}F" %>
+        <% washing_machines_per_floor.each do |washing_machine| %>
             <div>
                 <div>
-                    <%= image_tag 'washing_machine.png', style: 'opacity: 0.3; height: 150px;' %>
+                    <%= image_tag 'washing_machine.png', class: "washing_machine_img #{washing_machine.display_image}" %>
                 </div>
-                <div style= "text-align: center;">
-                    <%= washing_machine %>
+                <div class="washing_machine_status">
+                    <%= washing_machine.status %>
                 </div>
             </div>
         <% end %>

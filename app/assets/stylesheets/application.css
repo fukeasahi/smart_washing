@@ -13,3 +13,26 @@
  *= require_tree .
  *= require_self
  */
+
+.washing_machines_index_title {
+    display: flex; 
+    justify-content: center;
+}
+
+.floor_boxes {
+    display: flex; 
+    justify-content: center; 
+    margin: 0 0 30px;
+}
+
+.washing_machine_img {
+    height: 150px;
+} 
+
+.disavailable {
+    opacity: 0.3; 
+}
+
+.washing_machine_status {
+    text-align: center;
+}
