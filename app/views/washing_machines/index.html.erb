@@ -1,0 +1,19 @@
+<% washing_machines = ['Disable', 'Disable'] %>
+
+<h1 style="display: flex; justify-content: center;">Washing Machine Status</h1>
+
+<% [1,2,3].each do |a| %>
+    <div style="display: flex; justify-content: center; margin: 0 0 30px;">
+        <%= image_tag 'washing_machine.png', style: 'height: 150px;'%>
+        <% washing_machines.each do |washing_machine| %>
+            <div>
+                <div>
+                    <%= image_tag 'washing_machine.png', style: 'opacity: 0.3; height: 150px;' %>
+                </div>
+                <div style= "text-align: center;">
+                    <%= washing_machine %>
+                </div>
+            </div>
+        <% end %>
+    </div>
+<% end %>
