@@ -1,0 +1,16 @@
+current directory: /Users/asahihi/Documents/smart_washing/vender/bundle/ruby/3.1.0/gems/debug-1.7.2/ext/debug
+/Users/asahihi/.rbenv/versions/3.1.4/bin/ruby -I /Users/asahihi/.rbenv/versions/3.1.4/lib/ruby/3.1.0 extconf.rb
+creating Makefile
+
+current directory: /Users/asahihi/Documents/smart_washing/vender/bundle/ruby/3.1.0/gems/debug-1.7.2/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20230402-82374-3lrm2q sitelibdir\=./.gem.20230402-82374-3lrm2q clean
+
+current directory: /Users/asahihi/Documents/smart_washing/vender/bundle/ruby/3.1.0/gems/debug-1.7.2/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20230402-82374-3lrm2q sitelibdir\=./.gem.20230402-82374-3lrm2q
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.bundle
+
+current directory: /Users/asahihi/Documents/smart_washing/vender/bundle/ruby/3.1.0/gems/debug-1.7.2/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20230402-82374-3lrm2q sitelibdir\=./.gem.20230402-82374-3lrm2q install
+/usr/bin/install -c -m 0755 debug.bundle ./.gem.20230402-82374-3lrm2q/debug

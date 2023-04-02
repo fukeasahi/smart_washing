@@ -1,0 +1,15 @@
+current directory: /Users/asahihi/Documents/smart_washing/vender/bundle/ruby/3.1.0/gems/bootsnap-1.16.0/ext/bootsnap
+/Users/asahihi/.rbenv/versions/3.1.4/bin/ruby -I /Users/asahihi/.rbenv/versions/3.1.4/lib/ruby/3.1.0 extconf.rb
+creating Makefile
+
+current directory: /Users/asahihi/Documents/smart_washing/vender/bundle/ruby/3.1.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20230402-82374-tzptd3 sitelibdir\=./.gem.20230402-82374-tzptd3 clean
+
+current directory: /Users/asahihi/Documents/smart_washing/vender/bundle/ruby/3.1.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20230402-82374-tzptd3 sitelibdir\=./.gem.20230402-82374-tzptd3
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/asahihi/Documents/smart_washing/vender/bundle/ruby/3.1.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20230402-82374-tzptd3 sitelibdir\=./.gem.20230402-82374-tzptd3 install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20230402-82374-tzptd3/bootsnap
